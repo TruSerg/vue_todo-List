@@ -97,6 +97,9 @@ body {
 }
 
 .tasks__filter {
+  display: flex;
+  text-align: center;
+  max-width: 300px;
   margin-top: 2rem;
 }
 
