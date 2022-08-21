@@ -6,12 +6,14 @@
       @add-task="addTask"
     />
     <div class="tasks__filter">
-      <span class="tasks__filter-title">Filter</span>
-      <a-select v-model:value="filter" class="tasks__select">
-        <a-select-option value="all">All</a-select-option>
-        <a-select-option value="completed">Completed</a-select-option>
-        <a-select-option value="not-completed">Not completed</a-select-option>
-      </a-select>
+      <div class="tasks__filter-content">
+        <span class="tasks__filter-title">Filter</span>
+        <a-select v-model:value="filter" class="tasks__select">
+          <a-select-option value="all">All</a-select-option>
+          <a-select-option value="completed">Completed</a-select-option>
+          <a-select-option value="not-completed">Not completed</a-select-option>
+        </a-select>
+      </div>
     </div>
     <TaskList
         v-if="filteredTasks.length"
@@ -97,9 +99,12 @@ body {
 }
 
 .tasks__filter {
-  display: flex;
-  justify-content: center;
   margin-top: 2rem;
+}
+
+.tasks__filter-content {
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 .tasks__filter-title {
