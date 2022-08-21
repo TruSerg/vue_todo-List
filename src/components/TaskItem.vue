@@ -78,6 +78,7 @@ import { CloseOutlined } from '@ant-design/icons-vue';
   .task__content {
     display: flex;
     align-items: center;
+    margin-right: 2rem;
   }
 
   .task__btn {
@@ -101,7 +102,7 @@ import { CloseOutlined } from '@ant-design/icons-vue';
   }
 
   .task__text {
-    margin-right: 2rem;
+    word-break: break-all;
     text-align: center;
   }
 

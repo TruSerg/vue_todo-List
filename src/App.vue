@@ -104,7 +104,7 @@ body {
 
 .tasks__filter-content {
   display: flex;
-  max-width: 300px;
+  max-width: 250px;
   margin: 0 auto;
 }
 
