@@ -98,7 +98,7 @@ body {
 
 .tasks__filter {
   display: flex;
-  text-align: center;
+  justify-content: center;
   max-width: 300px;
   margin-top: 2rem;
 }
@@ -112,6 +112,7 @@ body {
 .tasks__select {
   display: block;
   width: 150px;
+  margin: 0 auto;
 }
 
 .task__empty-text {
