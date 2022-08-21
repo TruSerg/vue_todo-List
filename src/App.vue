@@ -106,6 +106,7 @@ body {
   font-size: 20px;
   color: #2690fe;
   margin-right: 1rem;
+  text-align: center;
 }
 
 .tasks__select {
