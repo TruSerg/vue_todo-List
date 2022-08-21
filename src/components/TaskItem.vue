@@ -9,7 +9,7 @@
       ></a-checkbox>
       <div class="task__body">
         <div>
-          <strong class="task__number">{{ index + 1 }}</strong>
+          <strong class="task__number">{{ index + 1 }}.</strong>
         </div>
         <span class="task__text"
               v-bind:class="{ done: task.completed }"

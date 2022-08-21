@@ -108,7 +108,7 @@ body {
 
 .tasks__select {
   display: block;
-  min-width: 150px;
+  width: 150px;
 }
 
 .task__empty-text {
