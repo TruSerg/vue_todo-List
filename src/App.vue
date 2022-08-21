@@ -99,7 +99,6 @@ body {
 .tasks__filter {
   display: flex;
   justify-content: center;
-  max-width: 300px;
   margin-top: 2rem;
 }
 
